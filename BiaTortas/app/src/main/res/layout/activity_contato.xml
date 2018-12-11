@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContatoActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="384dp"
+        android:layout_height="592dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_bkg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/contato" />
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="226dp"
+            android:layout_height="190dp"
+            android:layout_alignStart="@+id/imageView_bkg"
+            android:layout_alignLeft="@+id/imageView_bkg"
+            android:layout_alignTop="@+id/imageView_bkg"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginRight="79dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/button_contactar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginBottom="83dp"
+            android:text="Contactar" />
+
+        <Button
+            android:id="@+id/button_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_contactar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:text="Voltar" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
