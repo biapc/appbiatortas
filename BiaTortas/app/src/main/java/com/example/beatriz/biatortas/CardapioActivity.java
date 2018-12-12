@@ -21,8 +21,7 @@ public class CardapioActivity extends AppCompatActivity {
         button_torta1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CardapioActivity.this, DetalheTorta1Activity.class);
-                startActivityForResult(intent, 1);
+                startActivity(new Intent(getBaseContext(), DetalheTorta1Activity.class));
             }
         });
     }

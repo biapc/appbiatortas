@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="botao_historia">History</string>
+    <string name="botao_cardapio">Menu</string>
+    <string name="botao_contato">Contact</string>
+
+    <string name="texto_torta_1">German Pie</string>
+    <string name="texto_torta_2">Strawberry Pie</string>
+    <string name="texto_torta_3">Nutella Pie</string>
+    <string name="texto_torta_4">Oreo Cheesecake</string>
+
+    <string name="texto_titulo_torta_1">Description of German Pie</string>
+    <string name="texto_tamrendval_torta">Size, Yield and Values</string>
+    <string name="texto_valores_torta_1">Small | 10 Slices | R$ 50 Medium | 15 Slices | R$ 70 Large | 20 Slices | R$ 90</string>
+    <string name="texto_historia">I am a student who, in free time, dedicates myself totally to make life sweeter. In love with the kitchen, I ventured alone for the very first time when I was 10 years old, and to this day I find myself making pies, cakes, sweet breads and brownies.</string>
+
+    <string name="texto_descricao_torta_1">" Biscuit interspersed with light cream. All this covered by bitter sweet chocolate ganache."</string>
+    <string name="texto_titulo_torta_2">Description of Strawberry Pie</string>
+    <string name="texto_descricao_torta_4">Cheese cream covered by bitter sweet chocolate ganache with Oreo.</string>
+    <string name="texto_descricao_torta_3">" Cookie pie stuffed with milk-based cream topped with Nutella cream."</string>
+    <string name="texto_descricao_torta_2">" Milk cream with pieces of strawberry. Coverage of bitter sweet chocolate ganache."</string>
+
+    <string name="texto_valores_torta_2">Small | 10 Slices | R$ 50 Medium | 15 Slices | R$ 70 Large | 20 Slices | R$ 90</string>
+    <string name="texto_valores_torta_3">Small | 10 Slices | R$ 50 Medium | 15 Slices | R$ 70 Large | 20 Slices | R$ 90</string>
+    <string name="texto_valores_torta_4">Small | 10 Slices | R$ 50 Medium | 15 Slices | R$ 70 Large | 20 Slices | R$ 90</string>
+    <string name="texto_titulo_torta_3">Description of Nutella Pie</string>
+    <string name="texto_titulo_torta_4">Description of Oreo Cheesecake</string>
+</resources>

@@ -1,4 +1,36 @@
 <resources>
-    <string name="app_name">Bia Tortas</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name" translatable="false">Bia Tortas</string>
+
+    <string name="botao_historia">Hitória</string>
+    <string name="botao_cardapio">Cardápio</string>
+    <string name="botao_contato">Contato</string>
+
+    <string name="texto_historia">Sou uma estudante que, em tempo livre, me dedico unicamente em deixar a vida mais doce. Apaixonada pela cozinha, me aventurei sozinha pela primeira vez com 10 anos e, até hoje, me encontro fazendo tortas, bolos, pães de mel e brownies.</string>
+
+    <string name="texto_instagram" translatable="false">/biatortas</string>
+    <string name="texto_fb" translatable="false">/biatortasdoces</string>
+    <string name="texto_wpp" translatable="false">(21) 97914-3339</string>
+
+    <string name="texto_torta_1">Alemã</string>
+    <string name="texto_titulo_torta_1">Descricao Torta Alemã</string>
+    <string name="texto_descricao_torta_1">Biscoito maria intercalado com creme levíssimo. Tudo isso coberto por ganache de chocolate meio amargo.</string>
+    <string name="texto_tamrendval_torta">Tamanhos, Rendimento e Valores</string>
+    <string name="texto_valores_torta_1">Pequeno | 10 Fatias | R$ 50
+Medio | 15 Fatias | R$ 70
+Grande | 20 Fatias | R$ 90</string>
+
+    <string name="texto_torta_2">Morango</string>
+    <string name="texto_titulo_torta_2">Descricao Torta de Morango</string>
+    <string name="texto_descricao_torta_2">Creme levíssimo a base de leite com pedaços de morango. Cobertura de ganache de chocolate meio amargo.</string>
+    <string name="texto_valores_torta_2">Pequeno | 10 Fatias | R$ 50 Medio | 15 Fatias | R$ 70 Grande | 20 Fatias | R$ 90</string>
+
+    <string name="texto_torta_3">Leite Ninho com Nutella</string>
+    <string name="texto_titulo_torta_3">Descrição Leite Ninho com Nutella</string>
+    <string name="texto_descricao_torta_3">Torta de biscoito recheada com creme a base de leite Ninho coberto por creme de Nutella.</string>
+    <string name="texto_valores_torta_3">Pequeno | 10 Fatias | R$ 50 Medio | 15 Fatias | R$ 70 Grande | 20 Fatias | R$ 90</string>
+
+    <string name="texto_torta_4">Cheesecake de Oreo</string>
+    <string name="texto_titulo_torta_4">Descrição Cheesecake de Oreo</string>
+    <string name="texto_descricao_torta_4">Creme a base de queijo coberto por ganache de chocolate meio amargo com Oreo.</string>
+    <string name="texto_valores_torta_4">Pequeno | 10 Fatias | R$ 50 Medio | 15 Fatias | R$ 70 Grande | 20 Fatias | R$ 90</string>
 </resources>

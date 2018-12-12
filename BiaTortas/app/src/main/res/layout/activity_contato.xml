@@ -12,9 +12,10 @@
         android:layout_height="592dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506">
 
         <ImageView
             android:id="@+id/imageView_bkg"
@@ -26,7 +27,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="0dp"
-            app:srcCompat="@drawable/contato" />
+            app:srcCompat="@drawable/background" />
 
         <ImageView
             android:id="@+id/imageView_logo"
@@ -51,20 +52,48 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="33dp"
-            android:layout_marginRight="33dp"
-            android:layout_marginBottom="83dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
+            android:layout_marginBottom="74dp"
             android:text="Contactar" />
 
-        <Button
-            android:id="@+id/button_voltar"
+        <TextView
+            android:id="@+id/textView_instagram"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/button_contactar"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_marginStart="26dp"
-            android:layout_marginLeft="26dp"
-            android:text="Voltar" />
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="277dp"
+            android:text="@string/texto_instagram"
+            android:fontFamily="@font/little_days"/>
+
+        <TextView
+            android:id="@+id/textView_fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView_instagram"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-41dp"
+            android:layout_marginBottom="256dp"
+            android:text="@string/texto_fb"
+            android:layout_alignRight="@+id/textView_instagram"
+            android:layout_marginRight="-41dp"
+            android:fontFamily="@font/little_days"/>
+
+        <TextView
+            android:id="@+id/textView_wpp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView_fb"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-47dp"
+            android:layout_marginBottom="211dp"
+            android:text="@string/texto_wpp"
+            android:layout_alignRight="@+id/textView_fb"
+            android:layout_marginRight="-47dp"
+            android:fontFamily="@font/little_days"/>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

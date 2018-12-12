@@ -27,7 +27,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="0dp"
-            app:srcCompat="@drawable/detalhetorta1" />
+            app:srcCompat="@drawable/background" />
 
         <ImageView
             android:id="@+id/imageView_logo3"
@@ -39,6 +39,18 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="80dp"
             android:layout_marginRight="80dp"
+            app:srcCompat="@drawable/logo" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="226dp"
+            android:layout_height="190dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="238dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp"
             app:srcCompat="@drawable/logo" />
 
     </RelativeLayout>

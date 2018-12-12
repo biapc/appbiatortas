@@ -109,6 +109,46 @@
             android:layout_marginBottom="114dp"
             app:srcCompat="@drawable/cheesecakeoreo" />
 
+        <TextView
+            android:id="@+id/textView_torta_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginBottom="222dp"
+            android:text="@string/texto_torta_1" />
+
+        <TextView
+            android:id="@+id/textView_torta_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton_torta1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-242dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:text="@string/texto_torta_2" />
+
+        <TextView
+            android:id="@+id/textView_torta_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="85dp"
+            android:text="@string/texto_torta_3" />
+
+        <TextView
+            android:id="@+id/textView_torta_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView_torta_3"
+            android:layout_marginBottom="-28dp"
+            android:text="@string/texto_torta_4" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

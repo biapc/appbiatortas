@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="botao_historia">Historia</string>
+    <string name="botao_cardapio">Cardapio</string>
+    <string name="botao_contato">Contacto</string>
+
+    <string name="texto_torta_1">Alemán</string>
+    <string name="texto_torta_2">Torta de Fresa</string>
+    <string name="texto_torta_3">"Leche y Nutella "</string>
+    <string name="texto_torta_4">Cheesecake de Oreo</string>
+
+    <string name="texto_valores_torta_1">Pequeño | 10 Rebanadas | R$ 50 Medio | 15 Rebanadas | R$ 70 Grande | 20 Rebanadas | R$ 90</string>
+    <string name="texto_historia">" Soy una estudiante que, en tiempo libre, me dedico únicamente a dejar la vida más dulce. Enamorada de la cocina, me aventuré sola por primera vez con 10 años y, hasta hoy, me encuentro haciendo tortas, pasteles, panes de miel y brownies."</string>
+
+    <string name="texto_descricao_torta_1">Galleta intercalada con crema levísima. Todo esto cubierto por ganache de chocolate medio amargo.</string>
+    <string name="texto_descricao_torta_4">" Crema la base de queso cubierto por ganache de chocolate medio amargo con Oreo."</string>
+    <string name="texto_descricao_torta_3">" Torta de galleta rellena con crema a base de leche cubierta por crema de Nutella."</string>
+    <string name="texto_descricao_torta_2">Crema a base de leche con trozos de fresa. Cobertura de ganache de chocolate medio amargo.</string>
+
+    <string name="texto_valores_torta_2">Pequeño | 10 Rebanadas | R$ 50 Medio | 15 Rebanadas | R$ 70 Grande | 20 Rebanadas | R$ 90</string>
+    <string name="texto_valores_torta_3">Pequeño | 10 Rebanadas | R$ 50 Medio | 15 Rebanadas | R$ 70 Grande | 20 Rebanadas | R$ 90</string>
+    <string name="texto_valores_torta_4">Pequeño | 10 Rebanadas | R$ 50 Medio | 15 Rebanadas | R$ 70 Grande | 20 Rebanadas | R$ 90</string>
+
+    <string name="texto_titulo_torta_1">Descripción de la Torta Alemana</string>
+    <string name="texto_titulo_torta_2">Descripción de la Torta de Fresa</string>
+    <string name="texto_titulo_torta_3">Descripción de la Torta de Leche y Nutella</string>
+    <string name="texto_titulo_torta_4">Descripción de la Cheesecake de Oreo</string>
+    <string name="texto_tamrendval_torta">Tamaño, Rendimiento y Valores</string>
+</resources>

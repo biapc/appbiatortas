@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -14,9 +15,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UselessParent">
 
         <ImageView
+            android:contentDescription="imagem_bkg"
             android:id="@+id/imageView_bkg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -27,6 +30,23 @@
             android:layout_marginLeft="0dp"
             android:layout_marginTop="0dp"
             app:srcCompat="@drawable/background" />
+
+        <ImageView
+            android:contentDescription="imagem_logo"
+            android:id="@+id/imageView2"
+            android:layout_width="226dp"
+            android:layout_height="190dp"
+            android:layout_alignStart="@+id/imageView_bkg"
+            android:layout_alignLeft="@+id/imageView_bkg"
+            android:layout_alignTop="@+id/imageView_bkg"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginRight="79dp"
+            app:srcCompat="@drawable/logo" />
 
         <Button
             android:id="@+id/button_historia"
@@ -42,7 +62,7 @@
             android:layout_marginTop="272dp"
             android:layout_marginEnd="141dp"
             android:layout_marginRight="141dp"
-            android:text="História"
+            android:text="@string/botao_historia"
             tools:layout_editor_absoluteX="148dp"
             tools:layout_editor_absoluteY="121dp" />
 
@@ -60,7 +80,7 @@
             android:layout_marginTop="36dp"
             android:layout_marginEnd="141dp"
             android:layout_marginRight="141dp"
-            android:text="Cardápio" />
+            android:text="@string/botao_cardapio" />
 
         <Button
             android:id="@+id/button_contato"
@@ -78,23 +98,19 @@
             android:layout_marginEnd="141dp"
             android:layout_marginRight="141dp"
             android:layout_marginBottom="102dp"
-            android:text="Contato" />
+            android:text="@string/botao_contato" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="226dp"
-            android:layout_height="190dp"
-            android:layout_alignStart="@+id/imageView_bkg"
-            android:layout_alignLeft="@+id/imageView_bkg"
-            android:layout_alignTop="@+id/imageView_bkg"
+        <Button
+            android:id="@+id/button_change_language"
+            android:layout_width="31dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginStart="79dp"
-            android:layout_marginLeft="79dp"
-            android:layout_marginTop="37dp"
-            android:layout_marginEnd="79dp"
-            android:layout_marginRight="79dp"
-            app:srcCompat="@drawable/logo" />
-    </RelativeLayout>
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/language" />
 
-</android.support.constraint.ConstraintLayout>
+    </RelativeLayout>
+</LinearLayout>
