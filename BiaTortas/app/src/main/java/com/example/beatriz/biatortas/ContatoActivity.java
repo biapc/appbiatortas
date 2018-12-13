@@ -21,9 +21,6 @@ public class ContatoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contato);
 
-        RelativeLayout rl = (RelativeLayout)findViewById(R.id.relative_layout);
-        rl.setBackgroundResource(R.drawable.contato);
-
         Button contactar = (Button) findViewById(R.id.button_contactar);
 
         contactar.setOnClickListener(new View.OnClickListener() {

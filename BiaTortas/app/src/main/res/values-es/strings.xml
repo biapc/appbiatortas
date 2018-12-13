@@ -26,4 +26,5 @@
     <string name="texto_titulo_torta_3">Descripción de la Torta de Leche y Nutella</string>
     <string name="texto_titulo_torta_4">Descripción de la Cheesecake de Oreo</string>
     <string name="texto_tamrendval_torta">Tamaño, Rendimiento y Valores</string>
+    <string name="botao_contactar">Mesaje por Whatsapp</string>
 </resources>

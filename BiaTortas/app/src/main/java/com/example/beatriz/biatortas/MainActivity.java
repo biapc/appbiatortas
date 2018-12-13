@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
         loadLocale();
         setContentView(R.layout.activity_main);
 
-        RelativeLayout rl = (RelativeLayout)findViewById(R.id.relative_layout);
-        rl.setBackgroundResource(R.drawable.background);
-
         ActionBar actionbar = getSupportActionBar();
         actionbar.setTitle(getResources().getString(R.string.app_name));
 

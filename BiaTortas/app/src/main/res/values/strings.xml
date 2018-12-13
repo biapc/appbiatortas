@@ -1,23 +1,27 @@
 <resources>
     <string name="app_name" translatable="false">Bia Tortas</string>
 
-    <string name="botao_historia">Hitória</string>
+    <string name="botao_historia">História</string>
     <string name="botao_cardapio">Cardápio</string>
     <string name="botao_contato">Contato</string>
+    <string name="botao_contactar">Mensagem por Whatsapp</string>
 
     <string name="texto_historia">Sou uma estudante que, em tempo livre, me dedico unicamente em deixar a vida mais doce. Apaixonada pela cozinha, me aventurei sozinha pela primeira vez com 10 anos e, até hoje, me encontro fazendo tortas, bolos, pães de mel e brownies.</string>
 
     <string name="texto_instagram" translatable="false">/biatortas</string>
     <string name="texto_fb" translatable="false">/biatortasdoces</string>
     <string name="texto_wpp" translatable="false">(21) 97914-3339</string>
+    <string name="titulo_wpp" translatable="false">Whatsapp:</string>
+    <string name="titulo_fb" translatable="false">Facebook:</string>
+    <string name="titulo_instagram" translatable="false">Instagram:</string>
 
     <string name="texto_torta_1">Alemã</string>
     <string name="texto_titulo_torta_1">Descricao Torta Alemã</string>
     <string name="texto_descricao_torta_1">Biscoito maria intercalado com creme levíssimo. Tudo isso coberto por ganache de chocolate meio amargo.</string>
     <string name="texto_tamrendval_torta">Tamanhos, Rendimento e Valores</string>
-    <string name="texto_valores_torta_1">Pequeno | 10 Fatias | R$ 50
-Medio | 15 Fatias | R$ 70
-Grande | 20 Fatias | R$ 90</string>
+    <string name="texto_valores_torta_1">Pequeno - 10 Fatias - R$ 50
+Medio - 15 Fatias - R$ 70
+Grande - 20 Fatias - R$ 90</string>
 
     <string name="texto_torta_2">Morango</string>
     <string name="texto_titulo_torta_2">Descricao Torta de Morango</string>
