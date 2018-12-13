@@ -15,7 +15,7 @@
     <string name="titulo_fb" translatable="false">Facebook:</string>
     <string name="titulo_instagram" translatable="false">Instagram:</string>
 
-    <string name="texto_torta_1">Alemã</string>
+    <string name="texto_torta_1">Torta Alemã</string>
     <string name="texto_titulo_torta_1">Descricao Torta Alemã</string>
     <string name="texto_descricao_torta_1">Biscoito maria intercalado com creme levíssimo. Tudo isso coberto por ganache de chocolate meio amargo.</string>
     <string name="texto_tamrendval_torta">Tamanhos, Rendimento e Valores</string>
@@ -23,7 +23,7 @@
 Medio - 15 Fatias - R$ 70
 Grande - 20 Fatias - R$ 90</string>
 
-    <string name="texto_torta_2">Morango</string>
+    <string name="texto_torta_2">Torta de Morango</string>
     <string name="texto_titulo_torta_2">Descricao Torta de Morango</string>
     <string name="texto_descricao_torta_2">Creme levíssimo a base de leite com pedaços de morango. Cobertura de ganache de chocolate meio amargo.</string>
     <string name="texto_valores_torta_2">Pequeno | 10 Fatias | R$ 50 Medio | 15 Fatias | R$ 70 Grande | 20 Fatias | R$ 90</string>

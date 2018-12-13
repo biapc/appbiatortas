@@ -2,21 +2,22 @@ package com.example.beatriz.biatortas;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DetalheTorta1Activity extends AppCompatActivity {
+public class Detalhe3Activity extends AppCompatActivity {
+
     ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalhe_torta1);
+        setContentView(R.layout.activity_detalhe_torta3);
 
-        int[] images = new int[] {R.drawable.alema, R.drawable.cheesecakeoreo, R.drawable.morango, R.drawable.ninhotrufado};
+        int[] images = new int[] {R.drawable.ninhotrufado, R.drawable.morango, R.drawable.alema, R.drawable.cheesecakeoreo};
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         ImageAdaptor adapter = new ImageAdaptor(this, images);
         viewPager.setAdapter(adapter);
@@ -33,7 +34,7 @@ public class DetalheTorta1Activity extends AppCompatActivity {
 
     public void openWhatsApp(View view){
         try {
-            String text = "Olá, gostaria de encomendar a Torta Alemã! Aguardo retorno. ";
+            String text = "Olá, gostaria de encomendar a Torta de Leite Ninho com Nutella! Aguardo retorno. ";
 
             String toNumber = "+55 21979143339";
 

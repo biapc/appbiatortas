@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,138 +8,131 @@
     android:background="@drawable/background"
     tools:context=".CardapioActivity">
 
-    <ImageView
-        android:id="@+id/imageView_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:adjustViewBounds="true"
-        android:padding="45dp"
-        android:src="@drawable/logo"/>
-
-    <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/ScrollView_tortas"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:padding="45dp"
+            android:src="@drawable/logo"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="01">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_weight="01">
+                <ImageButton
+                    android:id="@+id/imageButton_torta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/alema"
+                    android:padding="3dp"/>
 
-                    <ImageButton
-                        android:id="@+id/imageButton_torta1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:src="@drawable/alema"
-                        android:padding="3dp"/>
-
-                    <TextView
-                        android:id="@+id/textView_torta_1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/texto_torta_1"
-                        android:fontFamily="@font/little_days"
-                        android:textStyle="bold"
-                        android:textColor="#008577"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_weight="01">
-
-                    <ImageButton
-                        android:id="@+id/imageButton_torta2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:src="@drawable/morango"
-                        android:padding="3dp"/>
-
-                    <TextView
-                        android:id="@+id/textView_torta_2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/texto_torta_2"
-                        android:fontFamily="@font/little_days"
-                        android:textStyle="bold"
-                        android:textColor="#008577"/>
-                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView_torta_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_torta_1"
+                    android:fontFamily="@font/little_days"
+                    android:textStyle="bold"
+                    android:textColor="#008577"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="5dp">
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="01">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_weight="01">
+                <ImageButton
+                    android:id="@+id/imageButton_torta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/morango"
+                    android:padding="3dp"/>
 
-                    <ImageButton
-                        android:id="@+id/imageButton_torta3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:src="@drawable/ninhotrufado"
-                        android:padding="3dp"/>
-
-                    <TextView
-                        android:id="@+id/textView_torta_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/texto_torta_3"
-                        android:fontFamily="@font/little_days"
-                        android:textStyle="bold"
-                        android:textColor="#008577"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_weight="01">
-
-                    <ImageButton
-                        android:id="@+id/imageButton_torta4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@null"
-                        android:src="@drawable/cheesecakeoreo"
-                        android:padding="3dp"/>
-
-                    <TextView
-                        android:id="@+id/textView_torta_4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/texto_torta_4"
-                        android:fontFamily="@font/little_days"
-                        android:textStyle="bold"
-                        android:textColor="#008577"/>
-                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView_torta_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_torta_2"
+                    android:fontFamily="@font/little_days"
+                    android:textStyle="bold"
+                    android:textColor="#008577"/>
             </LinearLayout>
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="01">
+
+                <ImageButton
+                    android:id="@+id/imageButton_torta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/ninhotrufado"
+                    android:padding="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView_torta_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_torta_3"
+                    android:fontFamily="@font/little_days"
+                    android:textStyle="bold"
+                    android:textColor="#008577"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="01">
+
+                <ImageButton
+                    android:id="@+id/imageButton_torta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/cheesecakeoreo"
+                    android:padding="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView_torta_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_torta_4"
+                    android:fontFamily="@font/little_days"
+                    android:textStyle="bold"
+                    android:textColor="#008577"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

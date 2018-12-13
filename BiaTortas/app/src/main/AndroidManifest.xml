@@ -18,10 +18,13 @@
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".CardapioActivity"></activity>
-        <activity android:name=".ContatoActivity"></activity>
-        <activity android:name=".HistoriaActivity"></activity>
-        <activity android:name=".DetalheTorta1Activity"></activity>
+        <activity android:name=".CardapioActivity" />
+        <activity android:name=".ContatoActivity" />
+        <activity android:name=".HistoriaActivity" />
+        <activity android:name=".DetalheTorta1Activity" />
+        <activity android:name=".Detalhe2Activity" />
+        <activity android:name=".Detalhe3Activity" />
+        <activity android:name=".Detalhe4Activity"></activity>
     </application>
 
 </manifest>

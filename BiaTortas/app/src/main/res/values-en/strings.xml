@@ -25,5 +25,5 @@
     <string name="texto_valores_torta_4">Small | 10 Slices | R$ 50 Medium | 15 Slices | R$ 70 Large | 20 Slices | R$ 90</string>
     <string name="texto_titulo_torta_3">Description of Nutella Pie</string>
     <string name="texto_titulo_torta_4">Description of Oreo Cheesecake</string>
-    <string name="botao_contactar">Message via Wpp</string>
+    <string name="botao_contactar">Message via Whatsapp</string>
 </resources>

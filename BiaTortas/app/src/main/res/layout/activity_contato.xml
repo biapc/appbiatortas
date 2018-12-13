@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,110 +8,117 @@
     android:background="@drawable/background"
     tools:context=".ContatoActivity">
 
-    <ImageView
-        android:id="@+id/imageView_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:adjustViewBounds="true"
-        android:padding="45dp"
-        android:src="@drawable/logo" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView_titulo_instagram"
+        <ImageView
+            android:id="@+id/imageView_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/titulo_instagram"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:padding="10dp"
-            android:textColor="#008577"
-            android:textStyle="bold"
-            android:layout_weight="0.1"/>
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:padding="45dp"
+            android:src="@drawable/logo" />
 
-        <TextView
-            android:id="@+id/textView_instagram"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_titulo_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_instagram"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#008577"
+                android:textStyle="bold"
+                android:layout_weight="0.1"/>
+
+            <TextView
+                android:id="@+id/textView_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_instagram"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_titulo_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_fb"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#008577"
+                android:textStyle="bold"
+                android:layout_weight="0.1"/>
+
+            <TextView
+                android:id="@+id/textView_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_fb"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_titulo_wpp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_wpp"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textColor="#008577"
+                android:textStyle="bold"
+                android:layout_weight="0.1"/>
+
+            <TextView
+                android:id="@+id/textView_wpp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_wpp"
+                android:fontFamily="@font/little_days"
+                android:textSize="25dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_contactar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_instagram"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:gravity="left"
-            android:textStyle="bold"
-            android:layout_weight="1"/>
+            android:background="@drawable/buttonshapecolor"
+            android:text="@string/botao_contactar"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView_titulo_fb"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/titulo_fb"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:padding="10dp"
-            android:textColor="#008577"
-            android:textStyle="bold"
-            android:layout_weight="0.1"/>
-
-        <TextView
-            android:id="@+id/textView_fb"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/texto_fb"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:gravity="left"
-            android:textStyle="bold"
-            android:layout_weight="1"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView_titulo_wpp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/titulo_wpp"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:padding="10dp"
-            android:textColor="#008577"
-            android:textStyle="bold"
-            android:layout_weight="0.1"/>
-
-        <TextView
-            android:id="@+id/textView_wpp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/texto_wpp"
-            android:fontFamily="@font/little_days"
-            android:textSize="25dp"
-            android:gravity="left"
-            android:textStyle="bold"
-            android:layout_weight="1"/>
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/button_contactar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/buttonshapecolor"
-        android:text="@string/botao_contactar"
-        android:textAlignment="center"
-        android:layout_margin="15dp"
-        android:textColor="#ffffff"
-        android:layout_gravity="center"/>
-</LinearLayout>
+</ScrollView>

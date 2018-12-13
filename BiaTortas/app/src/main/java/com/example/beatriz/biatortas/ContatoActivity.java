@@ -33,7 +33,7 @@ public class ContatoActivity extends AppCompatActivity {
 
     public void openWhatsApp(View view){
         try {
-            String text = "Teste";
+            String text = "Olá, gostaria de fazer uma encomenda! Aguardo retorno. ";
 
             String toNumber = "+55 21979143339";
 

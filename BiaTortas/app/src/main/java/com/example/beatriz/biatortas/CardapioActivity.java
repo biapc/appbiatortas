@@ -10,6 +10,9 @@ import android.content.Context;
 
 public class CardapioActivity extends AppCompatActivity {
     ImageButton button_torta1;
+    ImageButton button_torta2;
+    ImageButton button_torta3;
+    ImageButton button_torta4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +20,35 @@ public class CardapioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cardapio);
 
         button_torta1 = (ImageButton) findViewById(R.id.imageButton_torta1);
+        button_torta2 = (ImageButton) findViewById(R.id.imageButton_torta2);
+        button_torta3 = (ImageButton) findViewById(R.id.imageButton_torta3);
+        button_torta4 = (ImageButton) findViewById(R.id.imageButton_torta4);
 
         button_torta1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), DetalheTorta1Activity.class));
+            }
+        });
+
+        button_torta2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), Detalhe2Activity.class));
+            }
+        });
+
+        button_torta3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), Detalhe3Activity.class));
+            }
+        });
+
+        button_torta4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), Detalhe4Activity.class));
             }
         });
     }

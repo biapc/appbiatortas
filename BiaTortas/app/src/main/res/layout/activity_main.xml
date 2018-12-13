@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,57 +10,62 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView_logo"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="top"
-            android:adjustViewBounds="true"
-            android:padding="35dp"
-            android:src="@drawable/logo" />
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:adjustViewBounds="true"
+                android:padding="35dp"
+                android:src="@drawable/logo" />
+
+            <Button
+                android:id="@+id/button_change_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="@drawable/language"/>
+        </LinearLayout>
 
         <Button
-            android:id="@+id/button_change_language"
+            android:id="@+id/button_historia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_weight="1"
-            android:background="@drawable/language"/>
+            android:background="@drawable/buttonshapecolor"
+            android:text="@string/botao_historia"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button_cardapio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshapecolor"
+            android:text="@string/botao_cardapio"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/button_contato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshapecolor"
+            android:text="@string/botao_contato"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:font="@font/little_days"
+            android:layout_gravity="center"/>
+
     </LinearLayout>
-
-    <Button
-        android:id="@+id/button_historia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/buttonshapecolor"
-        android:text="@string/botao_historia"
-        android:layout_margin="15dp"
-        android:textColor="#ffffff"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/button_cardapio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/buttonshapecolor"
-        android:text="@string/botao_cardapio"
-        android:layout_margin="15dp"
-        android:textColor="#ffffff"
-        android:layout_gravity="center"/>
-    <Button
-        android:id="@+id/button_contato"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/buttonshapecolor"
-        android:text="@string/botao_contato"
-        android:layout_margin="15dp"
-        android:textColor="#ffffff"
-        android:font="@font/little_days"
-        android:layout_gravity="center"/>
-
-
-</LinearLayout>
+</ScrollView>
